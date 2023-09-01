@@ -28,6 +28,7 @@ namespace xadrez {
                 if (tab.peca(pos) != null && tab.peca(pos).cor != cor) {
                     break;
                 }
+                
                 pos.definirValores(pos.linha, pos.coluna - 1);
             }
 

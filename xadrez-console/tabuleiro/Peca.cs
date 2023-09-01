@@ -12,7 +12,6 @@
             this.cor = cor;
             this.qteMovimentos = 0;
         }
-
         public void incrementarQteMovimentos() {
             qteMovimentos++;
         }
@@ -34,6 +33,7 @@
         }
 
         public bool movimentoPossivel(Posicao pos) {
+            
             return movimentosPossiveis()[pos.linha, pos.coluna];
         }
 

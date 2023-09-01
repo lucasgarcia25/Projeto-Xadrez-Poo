@@ -57,6 +57,7 @@ namespace xadrez {
                 if (tab.peca(pos) != null && tab.peca(pos).cor != cor) {
                     break;
                 }
+                
                 pos.coluna = pos.coluna - 1;
             }
 

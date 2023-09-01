@@ -30,6 +30,7 @@ namespace xadrez {
             p.incrementarQteMovimentos();
             Peca pecaCapturada = tab.retirarPeca(destino);
             tab.colocarPeca(p, destino);
+            
             if (pecaCapturada != null) {
                 capturadas.Add(pecaCapturada);
             }
